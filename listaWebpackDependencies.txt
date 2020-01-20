@@ -1,0 +1,27 @@
+@babel/runtime
+webpack
+webpack-cli
+webpack-dev-server
+css-loader
+style-loader
+file-loader
+babel-loader
+@babel/core
+@babel/preset-env
+@babel/preset-react
+
+@babel/plugin-syntax-dynamic-import
+@babel/plugin-transform-runtime
+@babel/plugin-proposal-class-properties --> React class cmoponents
+
+@babel/runtime
+html-webpack-plugin
+
+Production
+
+mini-css-extract-plugin
+url-loader
+add-asset-html-webpack-plugin --> permite añadir los assets estaticos como las librerías dinámicas de forma automática a nuestros html generados
+clean-webpack-plugin --> borra los archivos hasheados para no acumular basura
+terser-css-asset-webpack-plugin --> comprimir y optimizar assets y css
+optimize-css-assets-webpack-plugin --> comprimir y optimizar assets y css
